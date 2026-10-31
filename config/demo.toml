@@ -1,0 +1,6 @@
+# Target configuration for Restful Booker Platform demo
+base_url = "https://automationintesting.online"
+navigation_timeout_ms = 30000
+browser_timeout_ms = 10000
+http_timeout_seconds = 15.0
+artifact_dir = "artifacts"

@@ -1,0 +1,37 @@
+[project]
+site_url = "https://example.com/python-quality-demo"
+site_name = "Python Quality Demo"
+site_description = "Demonstration test automation framework targeting Restful Booker Platform"
+
+nav = [
+  { "Overview" = "index.md" },
+  { "Getting Started" = "getting-started.md" },
+  { "Project Map" = "project-map.md" },
+  { "Writing Tests" = "writing-tests.md" },
+  { "Running & Results" = "running-and-results.md" },
+  { "Troubleshooting" = "troubleshooting.md" },
+  { "Target Notes" = "target-notes.md" },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.sections",
+  "navigation.top",
+  "search.highlight",
+]
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.highlight.anchor_linenums = true
+pymdownx.inlinehilite = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
